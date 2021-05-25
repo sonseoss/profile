@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,900;1,300;1,400&family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300&display=swap');
+
+@media (max-width: 767px) {
+    .aside-facebook {display: none;}
+}
+body {
+    margin: 0;
+}
+
+/*헤더 ㄱ*/
+header h1 {font-family: 'Merriweather', serif; font-size: 100px; margin: 0; text-align: center; padding-left: 13%;}
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 150px;
+}
+.menu {
+    background-color: #333;
+    display: block;
+    padding: 0; margin: 0;
+    text-align: center;
+}
+.menu > ul > li > a {
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    color: white;
+    padding-right: 30px;
+}
+.menu > ul > li > a:hover {
+    border-bottom: 5px solid white;
+}
+.menu > ul > li {
+    display: inline-block;
+    padding: 10px;
+}
+.logregi {
+    font-family: 'Merriweather', serif;
+    float: right;
+    margin: 20px;
+}
+.logregi > a { text-decoration: none; color: #333;}
+/*ㄴ*/
+
+
+/*사이드박스*/
+.side-box {
+    text-align: center;
+    position: fixed;
+    top: 500px;
+    font-family: 'Noto Serif KR', serif;
+    background-color: gray;
+}
+.side-box > a { text-decoration: none;}
+.side-box1 {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    margin-bottom: 1px;
+    padding: 10px;
+}
+.side-box2 {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    margin-bottom: 1px;
+    padding: 10px;
+}
+.side-box3 {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    margin-bottom: 1px;
+    padding: 10px;
+}
+/*ㄴ*/
+
+
+ul, li, dl, ol {list-style: none; /*순서요소들의 리스트스타일 제거*/}
+section {
+    width: 100%;
+}
+.container { padding: 180px 19%;}
+
+/*슬라이드*/
+.slid > img {width: 100%;}
+.slid > .slid-text {
+    background-color: gold;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    color: white;
+}
+.slid > .slid-text > small,strong {
+    margin-bottom: 10px;
+}
+/*ㄴ*/
+
+
+.list {
+    margin-top: 50px;
+}
+.list-box {
+    margin-bottom: 50px;
+    margin-left: 5.55%;
+    margin-right: 5.55%;
+    
+}
+
+.list-box > a:hover {
+    opacity: 0.2;
+    background-color: black;
+}
+.people {
+    background-color: white;
+    display: inline-block;
+    padding: 20px;
+}
+.people > p {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    font-family: 'Merriweather', serif;
+}
+.people > p > strong {font-weight: bold;     font-size: 13px;}
+.people > p > small {font-weight: bold;     font-size: 12px;}
+
+
+
+
+
